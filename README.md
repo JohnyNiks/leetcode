@@ -1,6 +1,6 @@
 # LeetCode Problems
 Oct
-2 - 88
+2 - 88, 16
 
 ### Solved:
 
@@ -8,5 +8,6 @@ Oct
 88
 
 ### Done by myself but need attention:
+16 - corner cases
 
 ### Need to be done:
