@@ -1,7 +1,7 @@
 # LeetCode Problems
 Oct
 2 - 88, 16
-3 - 27 
+3 - 27, 118 
 
 ### Solved:
 27
@@ -13,3 +13,4 @@ Oct
 16 - corner cases
 
 ### Need to be done:
+118
