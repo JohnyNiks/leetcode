@@ -2,7 +2,7 @@
 Oct
 2 - 88, 16
 3 - 27, 118
-4 - 128,
+4 - 128, 118
 
 ### Solved:
 27
@@ -12,6 +12,7 @@ Oct
 
 ### Done by myself but need attention:
 16 - corner cases
+118 - recursion in matrix
 
 ### Need to be done:
-118, 128
+128
