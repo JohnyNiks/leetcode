@@ -3,13 +3,13 @@ Oct
 2 - 88, 16
 3 - 27, 118
 4 - 128, 118
-6 - 128
+6 - 128, 162
 
 ### Solved:
 27, 128
 
 ### Done with help:
-88
+88, 162
 
 ### Done by myself but need attention:
 16 - corner cases
