@@ -3,9 +3,10 @@ Oct
 2 - 88, 16
 3 - 27, 118
 4 - 128, 118
+6 - 128
 
 ### Solved:
-27
+27, 128
 
 ### Done with help:
 88
@@ -15,4 +16,3 @@ Oct
 118 - recursion in matrix
 
 ### Need to be done:
-128

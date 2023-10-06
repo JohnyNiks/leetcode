@@ -41,32 +41,31 @@
 //
 // console.log(longestConsecutive([1, 100, 10, 12, 3, 4, 2])) // 4
 
-// Time log: 45m (didn't solved)
+// Time log: 45m (didn't solved), 30m
 
 /**
  * @param {number[]} nums
  * @return {number}
  */
 var longestConsecutive = function(nums) {
-  // Solution after explanation and code examples
-  let seq = 0
-  let map = new Map()
+  let result = 0
 
-  for (let i = 0; i < nums.length; i++) {
-    const currNum = nums[i]
-    if (!map.has(currNum)) {
-      const left = map.has(currNum - 1) ? map.get(currNum - 1) : 0
-      const right = map.has(currNum + 1) ? map.get(currNum + 1) : 0
+  const set = new Set(nums)
 
-      let sum = left + right + 1
+  for (const num of nums) {
+    if (set.has(num - 1)) continue
 
-      seq = Math.max(seq, sum)
+    let currNum = num + 1
+    let maxSeq = 1
 
-      map.set(currNum - left, sum)
-      map.set(currNum + right, sum)
+    while (set.has(currNum)) {
+      maxSeq++
+      currNum++
     }
+
+    result = Math.max(result, maxSeq)
   }
 
-  return seq
+  return result
 }
 console.log(longestConsecutive([1, 100, 10, 12, 3, 4, 2])) // 4
