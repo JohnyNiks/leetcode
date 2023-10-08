@@ -1,5 +1,5 @@
 // Link https://leetcode.com/problems/plus-one
-// Title 66. Plus One
+// 66. Plus One
 
 // Description:
 // You are given a large integer represented as an integer array digits, where each digits[i]
