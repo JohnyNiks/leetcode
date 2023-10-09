@@ -4,7 +4,7 @@ Oct
 3 - 27, 118
 4 - 128, 118
 6 - 128, 162
-8 - 16
+8 - 16, 153
 
 ### Solved:
 27, 128
@@ -18,3 +18,4 @@ Oct
 
 ### Need to be done:
 16 (didn't solve)
+153 (didn't solve)
