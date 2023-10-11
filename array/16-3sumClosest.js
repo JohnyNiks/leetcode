@@ -13,6 +13,7 @@
 // 1. What is minimal length of `nums`? 3?
 // 2. What are restrictions for `target`?
 // 3. Can we have more than one solution?
+// 4. Is `nums` sorted array?
 
 // Examples:
 // console.log(threeSumClosest([2,3,3], 5)) // 8
@@ -21,7 +22,7 @@
 // Rough solution:
 // using tree loops and saving intermediate result of closest for target O(n^3)
 
-// Time log: 1h 20m (didn't solve by myself)
+// Time log: 1h 20m (didn't solve by myself), 1h (didn't solve again)
 
 /**
  * @param {number[]} nums
@@ -38,9 +39,9 @@ var threeSumClosest = function(nums, target) {
     let right = nums.length - 1
 
     while (left < right) {
-      let sum = nums[left] + nums[i] + nums[right]
+      const sum = nums[left] + nums[i] + nums[right]
 
-      if (sum === target) return target
+      if (sum === target) return sum
 
       if (Math.abs(sum - target) < Math.abs(closest - target)) {
         closest = sum
@@ -57,3 +58,5 @@ var threeSumClosest = function(nums, target) {
 
   return closest
 };
+console.log(threeSumClosest([2,3,3], 5)) // 8
+console.log(threeSumClosest([2,3,3,0,-2], 5)) // 5
