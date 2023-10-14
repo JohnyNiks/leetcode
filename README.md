@@ -7,7 +7,7 @@ Oct
 8 - 16, 153
 9 - 34, 179
 11 - 16, 31
-14 - 153, 88
+14 - 153, 88, 216
 
 ### Solved:
 27, 128
@@ -25,3 +25,4 @@ Oct
 16 (didn't solve)
 179 (didn't solve)
 31 (didn't solve)
+216 (didn't solve)
