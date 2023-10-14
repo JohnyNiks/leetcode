@@ -7,12 +7,13 @@ Oct
 8 - 16, 153
 9 - 34, 179
 11 - 16, 31
+14 - 153,
 
 ### Solved:
 27, 128
 
 ### Done with help:
-88, 162
+88, 162, 153
 
 ### Done by myself but need attention:
 66 - corner cases
@@ -21,6 +22,5 @@ Oct
 
 ### Need to be done:
 16 (didn't solve)
-153 (didn't solve)
 179 (didn't solve)
 31 (didn't solve)

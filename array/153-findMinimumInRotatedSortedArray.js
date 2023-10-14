@@ -34,14 +34,29 @@
 // console.log(findMin([1])) // 1
 // console.log(findMin([11,13,15,17])) // 11
 
-// Time log: 1h 30m (didn't solve)
+// Time log: 1h 30m (didn't solve), 30m (solve with tips)
 
 /**
  * @param {number[]} nums
  * @return {number}
  */
 var findMin = function(nums) {
+  let left = 0
+  let right = nums.length - 1
 
+  while (left < right) {
+    const mid = Math.floor((left+right)/2)
+    const next = nums[mid + 1]
+    const cur = nums[mid]
+    const prev = nums[mid - 1]
+
+    if (next < cur) return next
+    if (prev > cur) return cur
+    if (nums[right] > cur) right = mid - 1
+    else left = mid + 1
+  }
+
+  return nums[left]
 };
 
 console.log(findMin([3,4,5,0,1,2])) // 0
