@@ -42,17 +42,25 @@
  */
 var merge = function(nums1, m, nums2, n) {
   let i = m - 1
-  let j = n - 1
-  let k = m + n - 1
+  let j = m + n - 1
+  let k = n - 1
 
-  while (j >= 0) {
-    if (i >= 0 && nums1[i] > nums2[j]) {
-      nums1[k] = nums1[i]
+  while (k >= 0) {
+    if (i >= 0 && nums1[i] > nums2[k]) {
+      nums1[j] = nums1[i]
       i--
     } else {
-      nums1[k] = nums2[j]
-      j--
+      nums1[j] = nums2[k]
+      k--
     }
-    k--
+
+    j--
   }
 }
+const arr = [1,2,3,0,0,0,0]
+const arr1 = [1]
+const arr2 = [0]
+merge(arr, 3, [2,3,5,6], 4) // nums1 = [1,2,2,3,3,5,6]
+merge(arr1, 1, [], 0) // nums1 = [1]
+merge(arr2, 0, [1], 1) // nums1 = [1]
+console.log(arr, arr1, arr2)
