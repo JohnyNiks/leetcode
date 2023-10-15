@@ -8,6 +8,7 @@ Oct
 9 - 34, 179
 11 - 16, 31
 14 - 153, 88, 216
+15 - 290
 
 ### Solved:
 27, 128, 242
@@ -20,6 +21,7 @@ Oct
 118 - recursion in matrix
 34 - corner cases (array with one element, target isn't in array)
 88 - conditions to go out from loop
+290 - corner case (don't add new key if value matches with another key value)
 
 ### Need to be done:
 16 (didn't solve)
