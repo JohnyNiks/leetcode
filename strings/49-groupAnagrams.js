@@ -25,7 +25,7 @@
 // 4. New loop with push in `result` indices of the same strings
 // 5. New loop to replace insides on strings from `strs`
 
-// Time log:
+// Time log: 45m
 
 /**
  * @param {string[]} strs
