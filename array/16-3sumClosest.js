@@ -22,7 +22,7 @@
 // Rough solution:
 // using tree loops and saving intermediate result of closest for target O(n^3)
 
-// Time log: 1h 20m (didn't solve by myself), 1h (didn't solve again)
+// Time log: 1h 20m (didn't solve by myself), 1h (didn't solve again), 55m (solve with help)
 
 /**
  * @param {number[]} nums
@@ -60,3 +60,4 @@ var threeSumClosest = function(nums, target) {
 };
 console.log(threeSumClosest([2,3,3], 5)) // 8
 console.log(threeSumClosest([2,3,3,0,-2], 5)) // 5
+console.log(threeSumClosest([-1,2,1,-4], 1)) // 2
