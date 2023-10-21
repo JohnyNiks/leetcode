@@ -11,13 +11,13 @@ Oct
 15 - 290, 205
 16 - 204, 242
 18 - 49
-21 - 16
+21 - 16, 204
 
 ### Solved:
 27, 128, 242, 205, 49
 
 ### Done with help:
-162, 153, 16
+162, 153, 16, 204
 
 ### Done by myself but need attention:
 66 - corner cases
@@ -30,4 +30,3 @@ Oct
 179 (didn't solve)
 31 (didn't solve)
 216 (didn't solve)
-204 (didn't solve)
