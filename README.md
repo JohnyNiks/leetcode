@@ -15,6 +15,9 @@ Oct
 22 - 15, 67
 24 - 28, 6
 
+Nov
+17 - 202
+
 ### Solved:
 27, 128, 242, 205, 49, 15, 67, 28
 
@@ -33,3 +36,4 @@ Oct
 31 (didn't solve)
 216 (didn't solve)
 6 (didn't solve)
+202 (didn't solve)
